@@ -84,7 +84,29 @@ public class WiTech {
 			element.click();
 			
 		}
+		public void clickKickStarter() {
+			
+			WebElement element = webDriver.findElement(By.cssSelector("#menu-item-143 > a"));
+			element.click();
+			WebElement element2 = webDriver.findElement(By.cssSelector("#post-141 > div > h3 > a"));
+			delay(2000);
+			((JavascriptExecutor) webDriver).executeScript("arguments[0].scrollIntoView(true);", element2);
+			element2.click();
+			
+		}
 		
+      public void clickOurSponsors() {
+			
+			WebElement element = webDriver.findElement(By.cssSelector("#menu-item-449 > a"));
+			element.click();
+      }
+      
+      public void clickMediaArchive() {
+			
+			WebElement element = webDriver.findElement(By.cssSelector("#menu-item-213 > a"));
+			element.click();
+    }
+      
 
 	public void delay(int milliseconds) {
 		try {

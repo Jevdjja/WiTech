@@ -14,6 +14,9 @@ public class WiTechTest {
 		// wi.clickWiteckitnetwork();
 		wi.clickWiTechNu();
 		wi.clickInstaLink();
+		wi.clickKickStarter();
+		wi.clickOurSponsors();
+		wi.clickMediaArchive();
 	}
 
 }
